@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo form</title>
+    <link rel="icon" href="logo1.svg">
+</head>
+<body>
+    <form action="">
+        <h1>Enter Your Details</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" required pattern="[a-zA-Z]{3,8}"placeholder="Name"><br><br>
+        <label for="email">Email</label>
+        <input type="email"  id="email" required pattern="[a-z0-9__.]+@[a-z]+.[a-z]{2,}" placeholder="example@gmail.com"><br><br>
+        <label for="phn">Phone Number</label>
+        <input type="text"  id="phn" required pattern="[6-9]{1}[0-9]{9}"><br><br>
+        <label for="msg">Message</label>
+        <input type="text" id="msg" placeholder="Message"><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
